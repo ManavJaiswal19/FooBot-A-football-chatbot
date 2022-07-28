@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+	"Hola",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Gracias"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "club",
+      "patterns": [
+        "Which club do you support?",
+        "Which is your favorite club?",
+        "Whom do you support?"
+      ],
+      "responses": [
+        "I am a Barca fan",
+        "I support FC Barcelona"
+      ]
+    },
+    {
+      "tag": "player",
+      "patterns": [
+        "Who is your favorite player?",
+        "Which is the best player according to you?",
+        "Which player do you ship?"
+      ],
+      "responses": [
+        "Lionel Messi"
+      ]
+    },
+	{
+		"tag":"number",
+		"patterns":[
+		"How many players in a team?",
+		"Team size"
+		],
+		"responses":[
+		"Eleven",
+		"11",
+		"10+1GK"
+		]
+	},
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+	"make me laugh"
+      ],
+      "responses": [
+        "What’s the difference between The Invisible Man and Italy? You’ve got more chance of seeing The Invisible Man at the World Cup Finals!",
+        "Why did the manager bring pencils and sketchbooks into the dressing room before the game? He was hoping for a draw!"
+      ]
+    }
+  ]
+}
